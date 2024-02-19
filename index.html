@@ -1,21 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-    <title>bk</title>
-</head>
-<body>
-   <div class="div">
-    <nav>
-        <img src="./download.jpg" alt="main logo">
-        <nav/>
-        <div class="main card">
-            
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> demo</title>
+    <link rel="stylesheet" href="./assets/images/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body class="bg-warning-subtle">
+<!-- navbar -->
+<div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-light p-4">
+      <h5 class="text-body-emphasis h4">Collapsed content</h5>
+      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-warning-subtle">
+    <div class="container-fluid">
+      <button  class="navbar-toggler bg-warning-subtle text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+      <a class="navbar-brand mx-5"  href="#"><img id="mainlogo" src="./assets/images/main logo.png" width="20%" alt="mainlogo"></a>
+      <ul id="buttons">
+        <a><button id="signin" type="button" class="btn btn-danger rounded-pill " data-mdb-ripple-init>singup/signin</button></a>
+       <a><button class=" btn rounded-pill btn-dark">$0.00</button></a>
+      </ul>
+    </div>
+  </nav>
+  <nav class="navbar bg-warning-subtle p-2">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1"><i class="fa-solid fa-location-dot"></i> For availability
+        Choose location</span>
+    </div>
+  </nav>
+  <hr class="text-dark"/>
+  <!-- navbar -->
+  
+  <!-- image -->
+  <div class="d-flex justify-content-evenly container p-3">
+    <div>
+    <h1 class="text-wrap mt-5">Start your<br/> BK® order.</h1>
+    <ul id="btn-down">
+    <a id="btn-down"><button id="signin" type="button" class="btn btn-danger rounded-pill " data-mdb-ripple-init>Order pickup</button></a>
+       <a class="mt-4"><button class=" btn rounded-pill btn-dark mt-4">order delivery</button></a>
+    </ul>
+    </div>
+    <img
+  src="./assets/images/image1.webp"
+  class="img-thumbnail"
+  alt="Hollywood Sign on The Hill"
+/>
+  </div>
 
+  <!-- cards -->
+  <div class="d-flex justify-content-evenly container  ">
+  <div class="card   text-wrap">
+    <div class="bg-img hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+      <img src="./assets/images/card1.webp" class="img-fluid"/>
+      <a href="#!">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+      </a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Top a Whopper® your way!</h5>
+      <p class="card-text">Enter the Million Dollar Whopper® Contest, where your Whopper® creation, your way, could be worth $1 million!* Your first entry earns you a FREE Whopper® with $1+ purchase.</p>
+      <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Create you whooper</a>
+    </div>
+  </div>
 
+  <div class="card  text-wrap mx-3">
+    <div class="bg-img hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+      <img src="./assets/images/card1.webp" class="img-fluid"/>
+      <a href="#!">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+      </a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Top a Whopper® your way!</h5>
+      <p class="card-text">Enter the Million Dollar Whopper® Contest, where your Whopper® creation, your way, could be worth $1 million!* Your first entry earns you a FREE Whopper® with $1+ purchase.</p>
+      <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Create you whooper</a>
+    </div>
+  </div>
+</div>
 
+<div class="d-flex justify-content-between container mt-4 ">
+    <div class="card   text-wrap">
+      <div class="bg-img hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="./assets/images/card1.webp" class="img-fluid"/>
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Top a Whopper® your way!</h5>
+        <p class="card-text">Enter the Million Dollar Whopper® Contest, where your Whopper® creation, your way, could be worth $1 million!* Your first entry earns you a FREE Whopper® with $1+ purchase.</p>
+        <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Create you whooper</a>
+      </div>
+    </div>
+  
+    <div class="card  text-wrap mx-3">
+      <div class="bg-img hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="./assets/images/card1.webp" class="img-fluid"/>
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Top a Whopper® your way!</h5>
+        <p class="card-text">Enter the Million Dollar Whopper® Contest, where your Whopper® creation, your way, could be worth $1 million!* Your first entry earns you a FREE Whopper® with $1+ purchase.</p>
+        <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Create you whooper</a>
+      </div>
+    </div>
+  </div>
+   <!-- cards -->
 
-        </div>
+   <!-- last div -->
+   <div class="d-flex justify-content-center container bg-light mt-5">
+    <div>
+        <img src="./assets/images/mobile.webp" id="mobile" alt="">
+    </div>
+    <div>
+    <h1>
+        Save $$$
+        With offers on demand</h1>
+        <p>
+            Save $$$
+            With offers on demand
+            Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms apply.</p>
+    </div>
+   </div>
+
+    <!-- footer -->
+<footer class="bg-warning-subtle text-center text-lg-start mt-2">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">TM & Copyright 2024 Burger King Company LLC. All Rights Reserved.
+        | 
+       Do Not Sell Or Share My Personal Information</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- footer --> 
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6250f1b1b6.js" crossorigin="anonymous"></script>
+  </body>
+</html>
         
