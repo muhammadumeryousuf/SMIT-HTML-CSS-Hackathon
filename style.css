@@ -1,0 +1,6 @@
+.div{
+    background-color: rgb(226, 215, 20);
+    height: 88px;
+    display: flex;
+    justify-content:center
+}
